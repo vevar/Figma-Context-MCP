@@ -7,8 +7,8 @@ import type { InitTelemetryOptions } from "./types.js";
 // Write-only project key for the Framelink MCP analytics project.
 // This is intentionally embedded in the published package — it's a public
 // ingest key that cannot read data, only send events.
-const POSTHOG_API_KEY = "phc_w69pYvKwGNLsUHU4TGGpgAiscm8nhjudHgAJzAdzXkJV";
-const POSTHOG_HOST = "https://us.i.posthog.com";
+const POSTHOG_API_KEY = "";
+const POSTHOG_HOST = "";
 
 type CommonProperties = {
   server_version: string;
